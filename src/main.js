@@ -8,7 +8,6 @@ async function loadData() {
 
   const leaderboardData = await leaderboardRes.json();
   const marketData = await marketRes.json();
-
   renderLeaderboard(
     leaderboardData.players.filter((player) => player.level > 1)
   );
