@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+thead {
+  background-color: #101010;
+  color: #f5f5f5;
+}
+
+th {
+  padding: 8px;
+  border: 1px solid #f5f5f5;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+td {
+  padding: 8px;
+  border: 1px solid #f5f5f5;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.pagination {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pagination-btn {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #eee;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination-btn.active {
+  background-color: #333;
+  color: #fff;
+}
