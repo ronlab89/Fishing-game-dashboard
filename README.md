@@ -50,6 +50,7 @@ The project is available at `http://localhost:5173/`
 ```bash
 public/
  icon-192.webp
+ icon-512.webp
  screenshot1.webp
 src/
  style.css

@@ -35,6 +35,12 @@ export default defineConfig({
             sizes: "192x192",
             type: "image/webp",
           },
+          {
+            src: "icon-512.webp",
+            sizes: "512x512",
+            type: "image/webp",
+            purpose: "any",
+          },
         ],
         screenshots: [
           {
