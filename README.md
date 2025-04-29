@@ -19,6 +19,8 @@ Connects to external APIs and **works offline** thanks to an automatic **Service
 
 ## Demo
 
+- https://fishing-game-dashboard.vercel.app/
+
 ---
 
 ## Local installation
